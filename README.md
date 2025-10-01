@@ -1,0 +1,25 @@
+- prérequis: node v18.18.0+, python 3.10+
+- pour le f ronted :
+    - aller dans le dossier frontend : cd frontend
+    - installer : npm i
+    - lancer : npm run dev
+- pour python-service :
+    - aller dans le dossier python-service: cd python-service
+    - créer un environement virtuel: python3 -m pip venv .venv
+    - l'activer (voir documenation), pour le cas de linux: source .venv/bin/activate
+    - installer les dépendances: python3 -m pip install -r requirements.txt
+    - lancer : uvicorn main:app --reload --port 8001
+- choix techniques :
+    - pour le frontend : 
+        - base de données : json car c'est simple, pas besoin d'ORM par rapport au contexte
+        - librairies utilisées : zod (selon les requirements)
+        - code : les components côté clients sont isolés
+    - pour python-service :
+        - base de données : json pour la faq, vecorisation des stop words
+        - librairies utilisées : sklearn avec nltk pour l'algorithme de matching
+- limites éventuelles :
+    - pour le frontend : l'UI est mauvaise, la validation avec zod ne valide que la longueur du titre recherché, l'url du front n'a pas de paramètres (query, sort)
+    - pour python-service: l'app est juste très limitée
+- améliorations possibles :
+    - pour le frontend : retravailler l'UI, mettre une validation 
+    - pour python-service : changer d'algorithme, fine tune un modèle généraliste en attendant le fait maison

@@ -1,0 +1,38 @@
+# -------------------
+# Frontend (Next.js)
+# -------------------
+/frontend/.next/
+# Logs
+/frontend/npm-debug.log*
+# Dependency directories
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+# Next.js build output
+/frontend/out/
+/frontend/.turbo/
+/frontend/.cache/
+/frontend/.DS_Store
+
+# -------------------
+# Python service
+# -------------------
+/python-service/.venv/
+/python-service/__pycache__/
+/python-service/*.py[cod]
+/python-service/*.pyo
+/python-service/*.pyd
+/python-service/Pipfile.lock
+/python-service/.pytest_cache/
+/python-service/.mypy_cache/
+/python-service/.DS_Store
+
+# -------------------
+# General
+# -------------------
+# Editor files
+*.swp
+*.swo
+*.idea/
+*.vscode/
+.DS_Store

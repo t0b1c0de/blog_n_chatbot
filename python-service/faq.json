@@ -1,0 +1,62 @@
+[
+  {
+    "id": "faq#ebitda",
+    "q": "Qu’est-ce que l’EBITDA ?",
+    "a": "L’EBITDA est un indicateur de performance opérationnelle avant intérêts, impôts, dépréciations et amortissements."
+  },
+  {
+    "id": "faq#marge-brute",
+    "q": "À quoi sert la marge brute ?",
+    "a": "Elle mesure la part du chiffre d’affaires restant après le coût des ventes, utile pour suivre la performance commerciale et le pricing."
+  },
+  {
+    "id": "faq#flux-tresorerie",
+    "q": "Qu’est-ce qu’un flux de trésorerie ?",
+    "a": "Les flux de trésorerie représentent les entrées et sorties d’argent d’une entreprise sur une période donnée."
+  },
+  {
+    "id": "faq#bilan",
+    "q": "À quoi sert le bilan comptable ?",
+    "a": "Le bilan présente la situation financière d’une entreprise à une date donnée, avec ses actifs, passifs et capitaux propres."
+  },
+  {
+    "id": "faq#compte-resultat",
+    "q": "Que montre le compte de résultat ?",
+    "a": "Il résume les produits et charges d’une entreprise sur une période et permet de calculer le bénéfice ou la perte."
+  },
+  {
+    "id": "faq#cash-flow",
+    "q": "Quelle est la différence entre EBITDA et cash-flow ?",
+    "a": "L’EBITDA mesure la performance opérationnelle, tandis que le cash-flow tient compte des mouvements de trésorerie réels."
+  },
+  {
+    "id": "faq#fonds-propres",
+    "q": "Que sont les fonds propres ?",
+    "a": "Les fonds propres représentent les ressources financières apportées par les actionnaires et les bénéfices non distribués."
+  },
+  {
+    "id": "faq#capital-travail",
+    "q": "Qu’est-ce que le besoin en fonds de roulement (BFR) ?",
+    "a": "Le BFR correspond aux ressources nécessaires pour financer le cycle d’exploitation (stocks, créances, dettes fournisseurs)."
+  },
+  {
+    "id": "faq#amortissement",
+    "q": "À quoi sert l’amortissement comptable ?",
+    "a": "Il permet de répartir le coût d’un actif sur sa durée d’utilisation estimée."
+  },
+  {
+    "id": "faq#dividende",
+    "q": "Qu’est-ce qu’un dividende ?",
+    "a": "C’est la part du bénéfice distribuée aux actionnaires d’une entreprise."
+  },
+  {
+    "id": "faq#rentabilite",
+    "q": "Comment mesure-t-on la rentabilité d’une entreprise ?",
+    "a": "Elle peut être mesurée par des ratios comme la marge nette, le retour sur capitaux propres (ROE) ou le retour sur investissement (ROI)."
+  },
+  {
+    "id": "faq#budget",
+    "q": "Qu’est-ce qu’un budget prévisionnel ?",
+    "a": "C’est un document qui anticipe les recettes et dépenses futures pour aider à la gestion financière."
+  }
+]
