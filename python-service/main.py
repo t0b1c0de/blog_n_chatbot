@@ -5,6 +5,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
 from pydantic import BaseModel
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 
 
 app = FastAPI()
@@ -36,6 +44,10 @@ async def answer_question(req: QuestionRequest):
     best_score = similarities[0][best_index]
 
     if best_score > 0.2:
-        return {"answer": faq[best_index]["a"]}
+        answer = faq[best_index]["a"]
     else:
-        return {"answer": "Pas de réponse."}
+        answer = "Pas de réponse."
+
+    logging.info(f"Question: {user_question} | Réponse : {answer}")
+
+    return {"answer": answer}
